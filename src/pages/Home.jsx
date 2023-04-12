@@ -15,7 +15,6 @@ const Home = () => {
     <Banners />
     <Services textMain={'Наші послуги'}/>
     <Footer /> 
-    <div>1233</div>
    </div>
   )
 }

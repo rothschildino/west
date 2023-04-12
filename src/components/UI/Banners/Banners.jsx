@@ -3,7 +3,10 @@ import './Banners.css'
 
 function Banners() {
   return (
-    <div className='solid container'></div>
+    <div className="container">
+      <div className="solid"></div>
+    </div>
+    
   )
 }
 

@@ -8,9 +8,9 @@
     justify-content: center;
     align-items: center;
 
-    padding: 0;
-
     margin-top: 200px;
+
+
 }
 
 .container {
@@ -42,15 +42,12 @@
         max-width: 300px;
     }
 
-    
-  }
-
-
-  @media (max-width:767px) {
-    
-    .solid.container {
-      margin-top: 200px;
+    .solid {
+      margin-top: 300px;
     }
 
     
   }
+
+
+  

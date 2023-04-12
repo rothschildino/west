@@ -4,7 +4,7 @@ import Search from './UI/Inputs/Search'
 import '../styles/Header.css'
 import '../App.css'
 import { ButtonMain } from './UI/Buttons/ButtonMain'
-import { AiOutlineMenu, AiOutlineUser, AiFillShopping } from 'react-icons/ai';
+import { AiOutlineMenu, AiOutlineUser, AiOutlineShoppingCart } from 'react-icons/ai';
 
 
 
@@ -19,11 +19,15 @@ const Header = () => {
           </div>
 
           <div className='fixed_header'>
-            <ButtonMain text={'Меню'} icon={ <AiOutlineMenu /> }/>
+            <ButtonMain text={'Меню'} icon={ <AiOutlineMenu /> } />
             <Search placeholder={'Я шукаю ...'} />
             <div>
-            <AiFillShopping className='shop'/>
+            <AiOutlineShoppingCart className='shop'/>
             </div>
+          </div>
+          
+          <div className="cabinet">
+            <ButtonMain text={'Меню'} icon={ <AiOutlineMenu /> }/>
           </div>
         { /* <ButtonMain  text={'Увійти'} icon={ <AiOutlineUser /> }/> */ }
         </div>

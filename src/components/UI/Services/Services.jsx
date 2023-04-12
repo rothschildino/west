@@ -8,9 +8,9 @@ const Services = ({textMain}) => {
       <div className='container'>
         <h1>{textMain}</h1>
         <div className='services_body'>
-          <Service />
-          <Service />
-          <Service />
+          <Service text={'Ремонт циліндрів'}/>
+          <Service text={'Шланги'}/>
+          <Service text={'Сервіс'}/>
         </div>
       </div>
       
