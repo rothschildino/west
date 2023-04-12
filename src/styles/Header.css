@@ -20,16 +20,21 @@
     min-width: 50%;
     display: flex;
     gap: 20px;
-    background-color: aqua;
     justify-content: space-between;
 
     align-items: center;
 }
 
-.shop {
-    width: 50px;
-    height: 50px;
+.icons {
+    display: flex;
+    gap: 20px;
 }
+
+.icon {
+    width: 30px;
+    height: 30px;
+}
+
 
 
 @media (max-width: 1200px) {
@@ -44,5 +49,20 @@
         display: flex;
         width: 100%;
         justify-content: flex-start;
+    }
+
+    .phone, .location {
+        position: absolute;
+        top: -100%;
+    }
+
+    .fixed_header {
+        justify-content: space-around;
+        width: 100%;
+    }
+
+    .cabinet {
+        position: absolute;
+        top: -100%;
     }
 }

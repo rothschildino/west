@@ -15,12 +15,20 @@
     margin-top: 200px;
 }
 
+
+
 .service_banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
     padding: 50px;
 }
 
 .service_banner h1 {
     margin-top: 0px;
+    display: inline-block;
 }
 
 menu {
