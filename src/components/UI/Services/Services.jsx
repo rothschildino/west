@@ -1,5 +1,4 @@
 import React from 'react'
-import 'D:/programming/west/west/src/App.css'
 import './service.css'
 import Service from './Service'
 
