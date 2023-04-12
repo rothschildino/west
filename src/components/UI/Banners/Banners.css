@@ -37,7 +37,20 @@
   }
   
   @media (max-width:767px) {
+    
     .container{
         max-width: 300px;
     }
+
+    
+  }
+
+
+  @media (max-width:767px) {
+    
+    .solid.container {
+      margin-top: 200px;
+    }
+
+    
   }
