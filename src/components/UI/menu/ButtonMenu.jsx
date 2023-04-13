@@ -1,12 +1,16 @@
 import React from 'react'
 import './menu.css'
+import { useNavigate } from 'react-router-dom';
 
-const ButtonMenu = ({text, icon}) => {
+const ButtonMenu = ({text, icon, navigateTo}) => {
+
+  const navigate = useNavigate();
+
   return (
-    <div className='button__icon'>
+    <a className='button__icon' onClick={() => {navigate(navigateTo)}}>
         {icon}
         <p>{text}</p>
-    </div>
+    </a>
   )
 }
 

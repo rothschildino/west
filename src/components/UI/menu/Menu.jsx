@@ -8,9 +8,9 @@ const Menu = ({name}) => {
     <menu className='menu'>
         <div className="container">
             <div className='menu_body'>
-                <ButtonMenu text={'Головна'} icon={ <AiOutlineHome /> }/>
-                <ButtonMenu text={'Головна'} icon={ <AiOutlineHome /> }/>
-                <ButtonMenu text={'Головна'} icon={ <AiOutlineHome /> }/>
+                <ButtonMenu text={'Головна'} icon={ <AiOutlineHome /> } navigateTo={'/west/'} />
+                <ButtonMenu text={'Каталог'} icon={ <AiOutlineHome /> } navigateTo={'/west/catolog'} />
+                <ButtonMenu text={'Головна'} icon={ <AiOutlineHome /> } navigateTo={'/west/'}/>
             </div>
         </div>
     </menu>

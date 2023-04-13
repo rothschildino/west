@@ -64,6 +64,8 @@
   @media (max-width:767px) {
     .container{
         max-width: 300px;
+        margin-top: 0;
+        margin-bottom: 0;
     }
 
     .menu {

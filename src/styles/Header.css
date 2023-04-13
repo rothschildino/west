@@ -13,7 +13,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
 
+.header_body svg {
+    width: 25px;
+    height: 25px;
 }
 
 .fixed_header {
@@ -37,11 +41,7 @@
 
 
 
-@media (max-width: 1200px) {
-    .header_body {
-        flex-direction: column;
-    }
-}
+
 
 
 @media (max-width: 768px) {
@@ -65,4 +65,8 @@
         position: absolute;
         top: -100%;
     }
-}
+
+    .container {
+        margin: 0;
+    }
+} 
