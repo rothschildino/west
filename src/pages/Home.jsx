@@ -7,14 +7,17 @@ import Header from '../components/Header'
 import Banners from '../components/UI/Banners/Banners'
 import Services from '../components/UI/Services/Services'
 import Footer from '../components/Footer'
+import Menu from '../components/UI/menu/Menu'
 
 const Home = () => {
   return (
    <div className='home'>
+   
     <Header /> 
     <Banners />
     <Services textMain={'Наші послуги'}/>
-    <Footer /> 
+    <Footer />
+    <Menu name={["Головна", "Каталог", "Придумаю"]}/> 
    </div>
   )
 }

@@ -31,7 +31,7 @@ const Header = () => {
           </div>
           
           <div className="cabinet">
-            <ButtonMain text={'Меню'} icon={ <AiOutlineMenu /> } className='button_menu' />
+            <ButtonMain text={'Меню'} icon={ <AiOutlineMenu /> } />
           </div>
         </div>
       </div>
