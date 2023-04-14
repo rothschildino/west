@@ -4,7 +4,7 @@ import Search from './UI/Inputs/Search'
 import '../styles/Header.css'
 import '../App.css'
 import { ButtonMain } from './UI/Buttons/ButtonMain'
-import { AiOutlineMenu, AiOutlineShoppingCart, AiOutlineEnvironment, AiOutlinePhone, AiOutlineSearch } from 'react-icons/ai';
+import { AiOutlineMenu, AiOutlineContacts, AiOutlineShoppingCart, AiOutlineEnvironment, AiOutlinePhone, AiOutlineSearch } from 'react-icons/ai';
 
 
 
@@ -22,7 +22,7 @@ const Header = () => {
           </div>
           <div className='icons'>
           <AiOutlineSearch />
-          <AiOutlineShoppingCart />
+          <AiOutlineContacts />
           </div>
           
 

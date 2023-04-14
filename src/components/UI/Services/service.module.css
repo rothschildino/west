@@ -81,4 +81,8 @@ menu {
     .services_body {
         flex-direction: column;
     }
+
+    .services {
+        margin-top: 100px;
+    }
   }
