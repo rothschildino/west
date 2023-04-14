@@ -1,7 +1,7 @@
 import React from 'react'
 import Search from './UI/Inputs/Search'
 
-import '../styles/Header.css'
+import styles from '../styles/Header.module.css'
 import '../App.css'
 import { ButtonMain } from './UI/Buttons/ButtonMain'
 import { AiOutlineMenu, AiOutlineContacts, AiOutlineShoppingCart, AiOutlineEnvironment, AiOutlinePhone, AiOutlineSearch } from 'react-icons/ai';
@@ -14,22 +14,25 @@ const Header = () => {
   const strokeWidthIcons = 20
 
   return (
-    <header className='header'>
-      <div className='container'>
-        <div className='header_body'>
-          <div className='logo'>
+    <header className={styles.header}>
+      <div className={styles.container}>
+        <div className={styles.header_body}>
+
+
+
+          <div className={styles.logo}>
             <h1>WEST</h1>
           </div>
-          <div className='icons'>
-          <AiOutlineSearch />
-          <AiOutlineContacts />
+
+
+          <div className={styles.icons}>
+            <AiOutlineSearch />
+            <AiOutlineContacts />
           </div>
           
 
           
-          <div className="cabinet">
-            <ButtonMain text={'Меню'} icon={ <AiOutlineMenu /> } />
-          </div>
+          
         </div>
       </div>
     </header>

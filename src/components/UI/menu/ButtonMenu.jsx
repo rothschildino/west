@@ -8,10 +8,12 @@ const ButtonMenu = ({text, icon, navigateTo}) => {
 
   return (
     <a className={styles.button__icon} onClick={() => {navigate(navigateTo)}}>
-        {icon}
+        
+          {icon}
+        
         <p>{text}</p>
     </a>
   )
 }
 
-export default ButtonMenu
+export default ButtonMenu 

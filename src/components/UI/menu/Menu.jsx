@@ -8,9 +8,9 @@ const Menu = ({name}) => {
     <menu className={styles.menu}>
         <div className={styles.container}>
             <div className={styles.menu__body}>
-                <ButtonMenu text={'Головна'} icon={ <AiOutlineHome /> } navigateTo={'/west/'} />
-                <ButtonMenu text={'Каталог'} icon={ <AiOutlineAppstore /> } navigateTo={'/west/catolog'} />
-                <ButtonMenu text={'Корзина'} icon={ <AiOutlineShoppingCart /> } navigateTo={'/west/shoppingCard'}/>
+                <ButtonMenu text={'Головна'} icon={ <AiOutlineHome className={styles.icon} /> } navigateTo={'/west/'} />
+                <ButtonMenu text={'Каталог'} icon={ <AiOutlineAppstore className={styles.icon} /> } navigateTo={'/west/catolog'} />
+                <ButtonMenu text={'Корзина'} icon={ <AiOutlineShoppingCart className={styles.icon} /> } navigateTo={'/west/shoppingCard'}/>
             </div>
         </div>
     </menu>
