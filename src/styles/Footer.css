@@ -11,9 +11,3 @@
     margin-top: 200px;
 }
 
-
-@media (max-width:767px) {
-    .footer {
-        margin-top: 500px;
-    }
-  }

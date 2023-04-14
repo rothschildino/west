@@ -1,4 +1,6 @@
 .menu {
+
+    z-index: 1000;
     position: absolute;
     left: -100%;
 

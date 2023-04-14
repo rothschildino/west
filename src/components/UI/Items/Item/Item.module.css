@@ -1,0 +1,21 @@
+.Item {
+
+    padding: 15px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+
+.item__body {
+    display: flex;
+    flex-direction: column;
+}
+
+.photo {
+    background-color: aliceblue;
+
+}
+
+.photo img {
+    width: 100%;
+}
+

@@ -8,6 +8,7 @@ import Banners from '../components/UI/Banners/Banners'
 import Services from '../components/UI/Services/Services'
 import Footer from '../components/Footer'
 import Menu from '../components/UI/menu/Menu'
+import PopularItems from '../components/UI/Items/popularItems/PopularItems'
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
     <Header /> 
     <Banners />
     <Services textMain={'Наші послуги'}/>
+    <PopularItems /> 
     <Footer />
     <Menu name={["Головна", "Каталог", "Придумаю"]}/> 
    </div>

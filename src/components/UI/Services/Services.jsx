@@ -18,4 +18,4 @@ const Services = ({textMain}) => {
   )
 }
 
-export default Services
+export default Services 
