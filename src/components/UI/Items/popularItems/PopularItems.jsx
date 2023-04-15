@@ -16,7 +16,7 @@ import { FreeMode, Pagination } from "swiper";
 import Item from "../Item/Item";
 
 
-const PopularItems = () => {
+const PopularItems = ({product}) => {
   return (
     <div className={styles.popular}>
         <div className="container">
@@ -52,13 +52,8 @@ const PopularItems = () => {
 
             className="mySwiper"
         >
-            <SwiperSlide><Item /></SwiperSlide>
-            <SwiperSlide><Item /></SwiperSlide>
-            <SwiperSlide><Item /></SwiperSlide>
-            <SwiperSlide><Item /></SwiperSlide>
-            <SwiperSlide><Item /></SwiperSlide>
-            <SwiperSlide><Item /></SwiperSlide>
-            <SwiperSlide><Item /></SwiperSlide>
+            <SwiperSlide><Item product={product}/></SwiperSlide>
+            
             
         </Swiper>
         </div>

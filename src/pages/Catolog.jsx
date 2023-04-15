@@ -1,12 +1,13 @@
 import React from 'react'
 import Menu from '../components/UI/menu/Menu'
 import Header from '../components/Header'
+import Items from '../components/UI/Items/Items/Items'
 
-const Catolog = () => {
+const Catolog = ({product}) => {
   return (
     <>
     < Header />
-    <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center', marginTop: '200px' }}>Поки що тут нічого немає</div>
+    <Items product={product}/>
     < Menu />
     </>
   )

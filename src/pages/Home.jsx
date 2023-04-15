@@ -10,14 +10,14 @@ import Footer from '../components/Footer'
 import Menu from '../components/UI/menu/Menu'
 import PopularItems from '../components/UI/Items/popularItems/PopularItems'
 
-const Home = () => {
+const Home = ({product}) => {
   return (
    <div className='home'>
    
     <Header /> 
     <Banners />
     <Services textMain={'Наші послуги'}/>
-    <PopularItems /> 
+    <PopularItems product={product}/> 
     <Footer />
     <Menu name={["Головна", "Каталог", "Придумаю"]}/> 
    </div>
