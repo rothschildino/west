@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './Item.module.css'
 
-const Item = ({product}) => {
+const Item = ({product, onAdd}) => {
 
 
   return (
@@ -12,7 +12,7 @@ const Item = ({product}) => {
                   <div key={product.id}>
                     <p>{product.name}</p>
                     <p>{product.price}</p>
-                    <button>add to korzuna</button>
+                    <button onClick={() => {onAdd(product)}}>add to korzuna</button>
                   </div>
                 ))}
             </div>

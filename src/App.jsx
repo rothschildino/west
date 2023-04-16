@@ -9,14 +9,19 @@ import data from "./data/Data.js"
 
 function App() {
 
+  const { product } = data;
+
   const [card, setCard] = useState([]);
 
-  const { product } = data;
+  const handleAddProduct = (item) => {
+    setCard([...card, item]);
+    console.log(card)
+  }
 
 
   return <Routes>
     <Route path='/west/' element={ <Home product={product}/> } />
-    <Route path='/west/catolog/' element={<Catolog product={product}/>} />
+    <Route path='/west/catolog/' element={<Catolog product={product} onAdd={handleAddProduct}/>} />
     <Route path='/west/shoppingCard/' element={<ShoppingCard card={card}/>}/>
   </Routes>
 }
