@@ -1,10 +1,10 @@
 import React from 'react'
-import './Banners.css'
+import styles from './banners.module.css'
 
 function Banners() {
   return (
-    <div className="container">
-      <div className="solid"></div>
+    <div className={styles.container}>
+      <div className={styles.solid}></div>
     </div>
     
   )

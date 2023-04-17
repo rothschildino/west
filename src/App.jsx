@@ -9,7 +9,7 @@ import data from "./data/Data.js"
 
 function App() {
 
-  const { product } = data;
+  const { product, categories } = data;
 
   const [card, setCard] = useState([]);
 
@@ -18,10 +18,12 @@ function App() {
     console.log(card)
   }
 
+  
+
 
   return <Routes>
     <Route path='/west/' element={ <Home product={product}/> } />
-    <Route path='/west/catolog/' element={<Catolog product={product} onAdd={handleAddProduct}/>} />
+    <Route path='/west/catolog/' element={<Catolog categories={categories} product={product} onAdd={handleAddProduct}/>} />
     <Route path='/west/shoppingCard/' element={<ShoppingCard card={card}/>}/>
   </Routes>
 }
