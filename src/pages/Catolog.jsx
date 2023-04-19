@@ -9,7 +9,6 @@ const Catolog = ({product, onAdd, categories}) => {
     <>
     <Header />
     <Categories categories={categories}/>
-    <Items product={product} onAdd={onAdd}/>
     < Menu />
     </>
   )

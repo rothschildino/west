@@ -1,3 +1,8 @@
 .popular  {
     margin-top: 100px;
 }
+
+.item {
+    padding: 15px;
+    background-color: grey;
+}

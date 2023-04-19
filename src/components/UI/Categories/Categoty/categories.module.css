@@ -4,14 +4,14 @@
 
 .categories__body {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
     flex-wrap: wrap;
-    gap: 5px;
+    gap: 30px;
 }
 
 .category {
-    background-color: rgb(222, 222, 222);
+    background-color: rgb(243, 243, 243);
     border-radius: 10px;
 
     display: flex;
@@ -24,10 +24,21 @@
 .category p {
     display: block;
     width: 100px;
-    margin: 0;
     text-align: center;
+    font-weight: 700;
 }
 
 .category img {
-    width: 100px;
+    width: 150px;
 }
+
+
+@media (max-width:767px) {
+    .category img {
+        width: 120px;
+    }
+
+    .categories__body {
+        justify-content: space-between;
+    }
+  }

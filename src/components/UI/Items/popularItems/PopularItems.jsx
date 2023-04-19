@@ -13,10 +13,11 @@ import styles from './popularItem.module.css'
 // import required modules
 import { FreeMode, Pagination } from "swiper";
 
-import Item from "../Item/Item";
-
+import PopularItem from "./PopularItem";
 
 const PopularItems = ({product}) => {
+
+
   return (
     <div className={styles.popular}>
         <div className="container">
@@ -26,7 +27,6 @@ const PopularItems = ({product}) => {
             <Swiper
             slidesPerView={1}
             spaceBetween={30}
-            freeMode={true}
             pagination={{
             clickable: true,
             }}
@@ -52,7 +52,10 @@ const PopularItems = ({product}) => {
 
             className="mySwiper"
         >
-            <SwiperSlide><Item product={product}/></SwiperSlide>
+
+            {product.map((el) => (
+              <SwiperSlide key={el.id}><PopularItem key={el.id} item={el}/></SwiperSlide>
+            ))}
             
             
         </Swiper>

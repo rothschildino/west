@@ -21,7 +21,7 @@ const Header = () => {
 
 
           <div className={styles.logo}>
-            <h1>WEST</h1>
+            <a href="/west/"><h1>WEST</h1></a>
           </div>
 
 
