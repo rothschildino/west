@@ -3,7 +3,7 @@ import styles from './categories.module.css'
 import { Link, useNavigate } from 'react-router-dom';
 
 
-const Category = ({onFilter, category, categoryArray}) => {
+const Category = ({onFilter, category, categoryArray, setCategory}) => {
 
   const navigate = useNavigate();
 
@@ -15,7 +15,8 @@ const Category = ({onFilter, category, categoryArray}) => {
       <p>{category.name}</p>
       <button onClick={() => {
 
-        onFilter(category.name)
+        const filteredData = onFilter(category.name)
+        setCategory(filteredData)
         navigate('/west/product-category/');
         console.log(category.name)
         console.log(categoryArray)

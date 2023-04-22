@@ -4,7 +4,7 @@ import styles from './categories.module.css'
 
 
 
-const Categories = ({categories, onFilter, category}) => {
+const Categories = ({categories, onFilter, category, setCategory}) => {
   return (
     <div className={styles.categories}>
         <div className="container">
@@ -13,7 +13,7 @@ const Categories = ({categories, onFilter, category}) => {
               <h1>Категорії</h1>
               
               {categories.map((el) => (
-                  <Category categoryArray={category} onFilter={onFilter} key={el.key} category={el} />
+                  <Category setCategory={setCategory} categoryArray={category} onFilter={onFilter} key={el.key} category={el} />
               ))}
             </div>
         </div>
