@@ -3,49 +3,34 @@ const data = {
         {
             id: "1", 
             name: 'Найкращий циліндр',
+            category: 'Шланги',
             price: '370$',
             image: ''
         },
         {
             id: "67", 
             name: 'Насос',
+            category: 'Шланги',
             price: '300$',
             image: ''
         },
         {
             id: "788", 
-            name: 'Шланг',
+            name: 'Циліндр',
+            category: 'Циліндри',
             price: '450$',
             image: ''
         },
         ,
         {
             id: "5858574", 
-            name: 'Шланг',
+            name: 'Влад',
+            category: 'Шланги',
             price: '450$',
             image: ''
         },
         ,
-        {
-            id: "7847368", 
-            name: 'Шланг',
-            price: '450$',
-            image: ''
-        },
-        ,
-        {
-            id: "748985588", 
-            name: 'Шланг',
-            price: '450$',
-            image: ''
-        },
-        ,
-        {
-            id: "4747", 
-            name: 'Шланг',
-            price: '450$',
-            image: ''
-        },
+        
 
     ],
 
