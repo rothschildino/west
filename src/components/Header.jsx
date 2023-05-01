@@ -20,15 +20,16 @@ const Header = () => {
 
 
 
-          <div className={styles.logo}>
+          {/* <div className={styles.logo}>
             <a href="/west/"><h1>WEST</h1></a>
-          </div>
+          </div> */}
 
+          <Search placeholder={'Введіть тут ваш запит'} icon={<AiOutlineSearch />}/>
 
-          <div className={styles.icons}>
+          {/* <div className={styles.icons}>
             <AiOutlineSearch />
             <AiOutlineContacts />
-          </div>
+          </div> */}
           
 
           

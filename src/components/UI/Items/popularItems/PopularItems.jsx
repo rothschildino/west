@@ -37,12 +37,12 @@ const PopularItems = ({product}) => {
                   spaceBetween: 20,
                 },
                 768: {
-                  slidesPerView: 4,
-                  spaceBetween: 40,
+                  slidesPerView: 6,
+                  spaceBetween: 20,
                 },
                 1024: {
-                  slidesPerView: 5,
-                  spaceBetween: 50,
+                  slidesPerView: 6,
+                  spaceBetween: 20,
                 },
               }}
 

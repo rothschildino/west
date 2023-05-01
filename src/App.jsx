@@ -6,9 +6,16 @@ import ShoppingCard from './pages/ShoppingCard'
 import ProductCategory from './pages/ProductCategory'
 import { useEffect, useState } from 'react'
 
+import { useDispatch, useSelector } from 'react-redux'
+
 import data from "./data/Data.js"
 
 function App() {
+
+
+  const dispatch = useDispatch()
+  const cash = useSelector(state => state.cash)
+  console.log(cash)
 
   const { product, categories } = data;
 

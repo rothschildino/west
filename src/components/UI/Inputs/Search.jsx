@@ -1,10 +1,16 @@
 import React from 'react'
-import'./Search.css';
+import styles from './Search.module.css'
 
-const Search = ({placeholder}) => {
+const Search = ({placeholder, icon}) => {
   return (
     <>
-    <input type="text" className='mainSearch' placeholder={placeholder}/>
+      <div className={styles.search}>
+
+      {icon}
+      <input type="text" className={styles.mainSearch} placeholder={placeholder} />
+
+      </div>
+      
     </>
     
     

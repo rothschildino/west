@@ -2,23 +2,23 @@ const data = {
     product: [
         {
             id: "1", 
-            name: 'Найкращий циліндр',
+            name: 'Найкращий циліндр з найкращим текстом і великим',
             category: 'Шланги',
-            price: '370$',
+            price: '370',
             image: ''
         },
         {
             id: "67", 
-            name: 'Насос',
+            name: 'Гідравлічний циліндр. ЗІЛ',
             category: 'Шланги',
-            price: '300$',
+            price: '300',
             image: ''
         },
         {
             id: "788", 
             name: 'Циліндр',
             category: 'Циліндри',
-            price: '450$',
+            price: '450',
             image: ''
         },
         ,
@@ -26,7 +26,31 @@ const data = {
             id: "5858574", 
             name: 'Влад',
             category: 'Шланги',
-            price: '450$',
+            price: '450',
+            image: ''
+        },
+        ,
+        {
+            id: "58585346274", 
+            name: 'Влад',
+            category: 'Шланги',
+            price: '450',
+            image: ''
+        },
+        ,
+        {
+            id: "58583374", 
+            name: 'Влад',
+            category: 'Шланги',
+            price: '450',
+            image: ''
+        },
+        ,
+        {
+            id: "5858564", 
+            name: 'Влад',
+            category: 'Шланги',
+            price: '450',
             image: ''
         },
         ,

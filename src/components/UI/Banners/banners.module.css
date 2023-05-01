@@ -5,13 +5,38 @@
     border-radius: 10px;
 
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 
     margin-top: 200px;
-
-
+    color: white;
 }
+
+.btn {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+}
+
+button {
+  background-color: transparent;
+  border-radius: 10px;
+  border-width: 1px;
+  border-color: #EF841E;
+  padding: 10px 50px;
+  border-style: solid;
+
+  cursor: pointer;
+}
+
+.image {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
 
 .container {
     max-width: 1400px;
@@ -44,7 +69,20 @@
 
     .solid {
       margin-top: 150px;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      height: 300px;
+
     }
+
+    h1 {
+      display: block;
+      text-align: center;
+      
+    }
+
+    
 
     
   }

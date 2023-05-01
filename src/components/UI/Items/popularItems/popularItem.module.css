@@ -1,9 +1,34 @@
-.popular  {
-    margin-top: 100px;
+.item {
+    background-color: white;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+
+    width: 100%;
+
 }
 
-.item {
-    padding: 15px;
-    background-color: grey;
-    height: 100px;
+img {
+  width: 100%;
+}
+
+.popular  {
+    margin-top: 100px;
+    
+}
+
+.photoItem {
+    background-color: orange;
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+}
+
+h3 {
+    display: block;
+}
+
+p {
+    margin: 0;
 }
